@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="none">
+	<parameter name="timeout" value="10" />
+	<test name="joy_ATT_AutomationSuite">
+			<classes>
+			    <class name="ATnT_Regression_Suite.FPP_1101_verifySellerPortal_GlobalNavigationSidebar" />
+			    <class name="ATnT_Regression_Suite.FPP_1090_verifyDealApprovers_byPricer" />
+                <class name="ATnT_Regression_Suite.FPP_1091_verifyPricerChainOfCommand_byApprover" />
+                <class name="ATnT_Regression_Suite.FPP_1102_verifyPricerPortal_GlobalNavigationSidebar" />
+                <class name="ATnT_Regression_Suite.FPP_1103_verifyApproverPortal_GlobalNavigationSidebar" />
+			    <class name="ATnT_Regression_Suite.FPP_256_view_admin_landing_page"/>
+			    <class name="ATnT_Regression_Suite.FPP_3264_Navigation_to_Master_Data_Landing_Page"/>
+			    <class name="ATnT_Regression_Suite.FPP_3440_Master_Data_Landing_Page_ProductManager"/>
+			    <class name="ATnT_Regression_Suite.FPP_3442_Master_Data_Landing_Page_CategoryManager"/>
+			    <class name="ATnT_Regression_Suite.FPP_3443_Master_Data_Landing_Page_AttributeManager"/>
+			    <class name="ATnT_Regression_Suite.FPP_1141_VerifyfieldsOnPricingManagerDealOverviewPage" />
+			    <class name="ATnT_Regression_Suite.FPP_1148_VerifyfieldsOnApproverDealOverviewPage" />
+			    <class name="ATnT_Regression_Suite.FPP_1157_VerifyLoginWithAuthorizedFPPUser" />
+			    <class name="ATnT_Regression_Suite.FPP_1158_VerifyLoginWithUnauthorizedFPPUser" />
+			    <class name="ATnT_Regression_Suite.FPP_1161_VerifyUserCanLogoutFromFPP" />
+			    <class name="ATnT_Regression_Suite.FPP_2461_VerifyThatPricingManagerCanExpandAndCollapseDealSolutionsOrProducts" />	    
+			    <class name="ATnT_Regression_Suite.FPP_2807_VerifySellerCanViewDealAlertsModule" />
+			    <class name="ATnT_Regression_Suite.FPP_2827_VerifySellerCanViewCompletedDealModule" />
+			    <class name="ATnT_Regression_Suite.FPP_2472_UI_VerifyPricingManagerCanViewWaterfallChartForDeal"/>
+			    <class name="ATnT_Regression_Suite.FPP_2473_UI_VerifyapproverCanViewWaterfallChartForDeal"/>		    
+		    </classes>
+	</test> <!-- Test -->
+	<listeners>
+		<listener class-name="testng.ReportsListener"></listener>
+		<listener class-name="testng.ConfigurationListener"></listener>
+		<listener class-name="testng.MethodListener"></listener>
+	</listeners>
+</suite> <!-- Suite -->

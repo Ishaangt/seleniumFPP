@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="none">
+	<parameter name="timeout" value="10" />
+	<test name="joy_ATT_AutomationSuite">
+			<classes>
+			    <class name="ATnT_Regression_Suite.FPP_1101_verifySellerPortal_GlobalNavigationSidebar" />
+			    <class name="ATnT_Regression_Suite.FPP_1090_verifyDealApprovers_byPricer" />
+                <class name="ATnT_Regression_Suite.FPP_1091_verifyPricerChainOfCommand_byApprover" />
+                <class name="ATnT_Regression_Suite.FPP_1102_verifyPricerPortal_GlobalNavigationSidebar" />
+                <class name="ATnT_Regression_Suite.FPP_1103_verifyApproverPortal_GlobalNavigationSidebar" />
+			    <class name="ATnT_Regression_Suite.FPP_3824_verifyAdminLandingPage"/>
+			    <class name="ATnT_Regression_Suite.FPP_3775_Navigation_to_Master_Data_Landing_Page"/>
+			    <class name="ATnT_Regression_Suite.FPP_3822_Master_Data_Landing_Page_ProductManager"/>
+			    <class name="ATnT_Regression_Suite.FPP_3810_Master_Data_Landing_Page_CategoryManager"/>
+			    <class name="ATnT_Regression_Suite.FPP_3809_Master_Data_Landing_Page_AttributeManager"/>
+		    </classes>
+	</test> <!-- Test -->
+	<listeners>
+		<listener class-name="testng.ReportsListener"></listener>
+		<listener class-name="testng.ConfigurationListener"></listener>
+		<listener class-name="testng.MethodListener"></listener>
+	</listeners>
+</suite> <!-- Suite -->

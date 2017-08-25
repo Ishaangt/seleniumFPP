@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [jSuite]">
+  <parameter name="uid" value="tr0001"/>
+  <parameter name="site" value="pricer"/>
+  <parameter name="psw" value="1234"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="timeout" value="10"/>
+  <listeners>
+    <listener class-name="testng.ReportsListener"/>
+    <listener class-name="testng.ConfigurationListener"/>
+    <listener class-name="testng.MethodListener"/>
+  </listeners>
+  <test name="joy_ATT_AutomationSuite(failed)">
+    <classes>
+      <class name="joy_ATT.FPP_1090">
+        <methods>
+          <include name="runTest"/>
+        </methods>
+      </class> <!-- joy_ATT.FPP_1090 -->
+    </classes>
+  </test> <!-- joy_ATT_AutomationSuite(failed) -->
+</suite> <!-- Failed suite [jSuite] -->

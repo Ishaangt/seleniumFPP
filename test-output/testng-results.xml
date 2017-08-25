@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+    <line>
+      <![CDATA[STEP4]]>
+    </line>
+    <line>
+      <![CDATA[STEP5]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="208906" started-at="2017-08-24T14:05:56Z" finished-at="2017-08-24T14:09:25Z">
+    <groups>
+    </groups>
+    <test name="joy_ATT_AutomationSuite" duration-ms="208906" started-at="2017-08-24T14:05:56Z" finished-at="2017-08-24T14:09:25Z">
+      <class name="RegressionSuite_Ishaan.VerifySampleAutoTestCases">
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RegressionSuite_Ishaan.VerifySampleAutoTestCases@5e82df6a]" name="test" duration-ms="208600" started-at="2017-08-24T19:35:56Z" data-provider="FPPPricingManager" finished-at="2017-08-24T19:39:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.31.101.14:7074/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tr0001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[FINANCIAL PHONES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+            <line>
+              <![CDATA[STEP4]]>
+            </line>
+            <line>
+              <![CDATA[STEP5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- RegressionSuite_Ishaan.VerifySampleAutoTestCases -->
+    </test> <!-- joy_ATT_AutomationSuite -->
+  </suite> <!-- Suite -->
+</testng-results>

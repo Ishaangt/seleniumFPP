@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="timeout" value="10"/>
+  <listeners>
+    <listener class-name="testng.ReportsListener"/>
+    <listener class-name="testng.ConfigurationListener"/>
+    <listener class-name="testng.MethodListener"/>
+  </listeners>
+  <test name="joy_ATT_AutomationSuite(failed)">
+    <classes>
+      <class name="RegressionSuite_Ishaan.VerifySampleAutoTestCases">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- RegressionSuite_Ishaan.VerifySampleAutoTestCases -->
+    </classes>
+  </test> <!-- joy_ATT_AutomationSuite(failed) -->
+</suite> <!-- Failed suite [Suite] -->

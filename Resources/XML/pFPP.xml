@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="none">
+	<parameter name="timeout" value="10" />
+	<test name="joy_ATT_AutomationSuite">
+			<classes>
+			    <class name="ATnT_Regression_Suite.FPP_1141_VerifyfieldsOnPricingManagerDealOverviewPage" />
+			    <class name="ATnT_Regression_Suite.FPP_1148_VerifyfieldsOnApproverDealOverviewPage" />
+			    <class name="ATnT_Regression_Suite.FPP_1157_VerifyLoginWithAuthorizedFPPUser" />
+			    <class name="ATnT_Regression_Suite.FPP_1158_VerifyLoginWithUnauthorizedFPPUser" />
+			    <class name="ATnT_Regression_Suite.FPP_1161_VerifyUserCanLogoutFromFPP" />
+			    <class name="ATnT_Regression_Suite.FPP_2461_VerifyThatPricingManagerCanExpandAndCollapseDealSolutionsOrProducts" />
+			    <class name="ATnT_Regression_Suite.FPP_2807_VerifySellerCanViewDealAlertsModule" />
+			    <class name="ATnT_Regression_Suite.FPP_2827_VerifySellerCanViewCompletedDealModule" />
+		    </classes>
+	</test> <!-- Test -->
+	<listeners>
+		<listener class-name="testng.ReportsListener"></listener>
+		<listener class-name="testng.ConfigurationListener"></listener>
+		<listener class-name="testng.MethodListener"></listener>
+	</listeners>
+</suite> <!-- Suite -->

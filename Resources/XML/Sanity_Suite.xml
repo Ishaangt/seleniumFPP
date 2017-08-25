@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="none">
+	<parameter name="timeout" value="10" />
+	<test name="ATnT_FPP_SanitySuite">
+			<classes>
+			    <class name="ATnT_Sanity_Suite.SanityFlow_PricingManager" />
+			    <class name="ATnT_Sanity_Suite.SanityFlow_Approver" />
+		    </classes>
+	</test> <!-- Test -->
+	<listeners>
+		<listener class-name="testng.ReportsListener"></listener>
+		<listener class-name="testng.ConfigurationListener"></listener>
+		<listener class-name="testng.MethodListener"></listener>
+	</listeners>
+</suite> <!-- Suite -->
